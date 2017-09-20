@@ -26,3 +26,5 @@ E:\QLTruonghoc\QLTruonghoc\bin\Debug\QLTruonghoc.exe
 E:\QLTruonghoc\QLTruonghoc\bin\Debug\QLTruonghoc.pdb
 E:\QLTruonghoc\QLTruonghoc\obj\x86\Debug\QLTruonghoc.pdb
 E:\QLTruonghoc\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csprojResolveAssemblyReference.cache
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.exe
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.pdb
