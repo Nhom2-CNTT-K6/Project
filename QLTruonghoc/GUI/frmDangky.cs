@@ -32,7 +32,7 @@ namespace QLTruonghoc
         {
             dataGridView1.AllowUserToAddRows = false;
             txtTen.Enabled = false;
-            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\QLTruonghoc\CSDL.accdb;Persist Security Info=False";
+            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\VB2.CNTT\CSharp\BaiTap\CSDL.accdb;Persist Security Info=False";
             con.Open();
             OleDbCommand com = new OleDbCommand();
             com.Connection = con;
