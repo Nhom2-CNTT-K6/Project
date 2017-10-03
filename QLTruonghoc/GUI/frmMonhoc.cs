@@ -55,7 +55,7 @@ namespace QLTruonghoc
             btnXoa.Enabled = false;
             ckbLuachonxoa.Enabled = false;
         }
-
+        //fg
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
             //Update
