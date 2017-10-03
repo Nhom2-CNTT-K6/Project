@@ -28,3 +28,15 @@ E:\QLTruonghoc\QLTruonghoc\obj\x86\Debug\QLTruonghoc.pdb
 E:\QLTruonghoc\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csprojResolveAssemblyReference.cache
 F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.exe
 F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.pdb
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\bin\Debug\QLTruonghoc.exe
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\bin\Debug\QLTruonghoc.pdb
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csprojResolveAssemblyReference.cache
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmDangky.resources
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmDangnhap.resources
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmKhoahoc.resources
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmMain.resources
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmMonhoc.resources
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmThongtinGV.resources
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmThongtinSV.resources
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.Properties.Resources.resources
+F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csproj.GenerateResource.Cache
