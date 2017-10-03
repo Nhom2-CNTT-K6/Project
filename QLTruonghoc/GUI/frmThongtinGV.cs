@@ -18,7 +18,7 @@ namespace QLTruonghoc
         }
         //Global Variable
         public OleDbConnection con = new OleDbConnection();
-        
+        //fgfssaf
         private void faculty_Load(object sender, EventArgs e)
         {
             con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\CSDL-TTNhom\CSDL.accdb;Persist Security Info=False";
