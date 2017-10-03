@@ -21,7 +21,7 @@ namespace QLTruonghoc
         public OleDbConnection con = new OleDbConnection();
         public bool layGiaTri(string com)
         {
-            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source= E:\QLTruonghoc\CSDL.accdb;Persist Security Info=False";
+            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source= C:\CSDL-TTNhom\CSDL.accdb;Persist Security Info=False";
             con.Open();
             OleDbCommand command = new OleDbCommand();
             command.Connection = con;
