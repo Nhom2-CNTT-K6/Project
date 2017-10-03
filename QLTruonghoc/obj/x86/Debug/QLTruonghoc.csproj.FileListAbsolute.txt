@@ -40,3 +40,5 @@ F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmThongtinGV.r
 F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmThongtinSV.resources
 F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.Properties.Resources.resources
 F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csproj.GenerateResource.Cache
+D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.exe
+D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.pdb
