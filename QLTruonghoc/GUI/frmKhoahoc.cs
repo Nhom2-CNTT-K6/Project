@@ -211,7 +211,7 @@ namespace QLTruonghoc
                 cmbMKHxoa.Enabled = true;
                 OleDbCommand com = new OleDbCommand();
                 com.Connection = con;
-                com.CommandText = "Select courseid from course";
+                com.CommandText = "Select coursetitle from course";
                 OleDbDataReader Cread = com.ExecuteReader();
                 while (Cread.Read())
                 {
