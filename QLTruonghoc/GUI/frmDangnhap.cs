@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Đây là phần đăng nhập
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

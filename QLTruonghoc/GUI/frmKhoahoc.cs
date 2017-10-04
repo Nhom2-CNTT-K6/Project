@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Tra cuu khoa hoc
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
