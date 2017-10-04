@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Thong tin giao vien
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
