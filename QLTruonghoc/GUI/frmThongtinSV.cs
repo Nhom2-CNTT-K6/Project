@@ -1013,5 +1013,9 @@ namespace QLTruonghoc
             
         }
 
+        private void txtTen_TextChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hãy nhập một giá trị");
+        }
     }
 }

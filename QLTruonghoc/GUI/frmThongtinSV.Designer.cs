@@ -118,6 +118,7 @@
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(176, 26);
             this.txtTen.TabIndex = 5;
+            this.txtTen.TextChanged += new System.EventHandler(this.txtTen_TextChanged);
             this.txtTen.Leave += new System.EventHandler(this.txtTen_Leave);
             // 
             // cmbKhoa
