@@ -42,6 +42,7 @@ F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.Properties.Reso
 F:\WORK\Nhom1-CNPM\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csproj.GenerateResource.Cache
 D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.exe
 D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.pdb
+<<<<<<< HEAD
 D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\bin\Debug\QLTruonghoc.exe
 D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\bin\Debug\QLTruonghoc.pdb
 D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csprojResolveAssemblyReference.cache
@@ -54,3 +55,19 @@ D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruongho
 D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmThongtinSV.resources
 D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.Properties.Resources.resources
 D:\Lop CNTT K6\Hoc tap\Nam hoc 2017-2018\Thuc tap nhom\GitHub\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csproj.GenerateResource.Cache
+=======
+D:\githud\Project\QLTruonghoc\bin\Debug\QLTruonghoc.exe
+D:\githud\Project\QLTruonghoc\bin\Debug\QLTruonghoc.pdb
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csprojResolveAssemblyReference.cache
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmDangky.resources
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmDangnhap.resources
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmKhoahoc.resources
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmMain.resources
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmMonhoc.resources
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmThongtinGV.resources
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.frmThongtinSV.resources
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.Properties.Resources.resources
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.csproj.GenerateResource.Cache
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.exe
+D:\githud\Project\QLTruonghoc\obj\x86\Debug\QLTruonghoc.pdb
+>>>>>>> ebab554b904711080dbc846ac6916287f78b3663
