@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Thong tin chinh ve sinh vien
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

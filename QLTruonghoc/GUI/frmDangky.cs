@@ -1,4 +1,5 @@
-﻿using System;
+﻿//abcdef
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,6 +33,7 @@ namespace QLTruonghoc
         {
             dataGridView1.AllowUserToAddRows = false;
             txtTen.Enabled = false;
+            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\CSDL-TTNhom\CSDL.accdb; Persist Security Info=False";
             con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\CSDL-TTNhom\CSDL.accdb;Persist Security Info=False";
             con.Open();
             OleDbCommand com = new OleDbCommand();
