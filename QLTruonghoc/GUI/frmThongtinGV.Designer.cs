@@ -393,7 +393,7 @@
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(119, 26);
             this.txtTen.TabIndex = 47;
-            this.txtTen.TextChanged += new System.EventHandler(this.txtTen_TextChanged);
+//            this.txtTen.TextChanged += new System.EventHandler(this.txtTen_TextChanged);
             this.txtTen.Leave += new System.EventHandler(this.textBox3_Leave);
             // 
             // txtHodem
