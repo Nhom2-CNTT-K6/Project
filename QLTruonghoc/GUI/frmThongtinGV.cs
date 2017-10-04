@@ -18,7 +18,7 @@ namespace QLTruonghoc
         }
         //Global Variable
         public OleDbConnection con = new OleDbConnection();
-        
+        //fgfssaf
         private void faculty_Load(object sender, EventArgs e)
         {
             con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\CSDL-TTNhom\CSDL.accdb;Persist Security Info=False";
@@ -152,7 +152,7 @@ namespace QLTruonghoc
             string postalCode = txtMavung.Text;
             string fcon = txtSDT.Text;
             string fsal = txtLuong.Text;
-            if (fId != "" && fname != "" && lname != "" && address != "" && postalCode != "" && fcon != "" && fsal != "" && cmbGioitinh.SelectedItem != null && dtNgaysinh.Value != null && cmbVanphong.SelectedItem != null)
+            if (fId != "" && fname != "" && lname != "" && address != "" && postalCode != "" && fcon != "" && fsal != "" && cmbGioitinh.SelectedItem != null && dteNgaysinh.Value != null && cmbVanphong.SelectedItem != null)
             {
                 OleDbCommand com1 = new OleDbCommand();
                 OleDbCommand com2 = new OleDbCommand();
@@ -160,7 +160,7 @@ namespace QLTruonghoc
                 com2.Connection = con;
                 try
                 {
-                    com1.CommandText = "Insert into person(personId,fname,lname,dob,postalcode,gender,address) values(" + fId + ",'" + fname + "','" + lname + "'," + dtNgaysinh.Value.ToString("mm-dd-yyyy") + "," + postalCode + ",'" + cmbGioitinh.SelectedItem.ToString() + "','" + address + "')";
+                    com1.CommandText = "Insert into person(personId,fname,lname,dob,postalcode,gender,address) values(" + fId + ",'" + fname + "','" + lname + "'," + dteNgaysinh.Value.ToString("mm-dd-yyyy") + "," + postalCode + ",'" + cmbGioitinh.SelectedItem.ToString() + "','" + address + "')";
                     com2.CommandText = "Insert into faculty(facultyid, office, salary, contactNo) values(" + fId + ",'" + cmbVanphong.SelectedItem.ToString() + "'," + long.Parse(txtLuong.Text) + "," + long.Parse(txtSDT.Text) + ")";
                     com1.ExecuteNonQuery();
                     com2.ExecuteNonQuery();
@@ -300,7 +300,7 @@ namespace QLTruonghoc
                 cmbVanphong.SelectedIndex = 0;
                 txtMavung.Text = reader["perpost"].ToString();
                 txtDiachi.Text = reader["peradd"].ToString();
-                dtNgaysinh.Value = Convert.ToDateTime(reader["perdob"]);
+                dteNgaysinh.Value = Convert.ToDateTime(reader["perdob"]);
                 txtSDT.Text = reader["fCon"].ToString();
                 txtLuong.Text = reader["fSal"].ToString(); 
 
@@ -315,7 +315,7 @@ namespace QLTruonghoc
                 txtMavung.Text = "";
                 txtLuong.Text = "";
                 txtSDT.Text = "";
-                dtNgaysinh.Value = DateTime.Now;
+                dteNgaysinh.Value = DateTime.Now;
                 lblMSKcapnhat.ForeColor = System.Drawing.Color.Red;
             }
         }
@@ -358,7 +358,7 @@ namespace QLTruonghoc
                 cmbVanphong.SelectedIndex = 0;
                 txtMavung.Text = reader["perpost"].ToString();
                 txtDiachi.Text = reader["peradd"].ToString();
-                dtNgaysinh.Value = Convert.ToDateTime(reader["perdob"]);
+                dteNgaysinh.Value = Convert.ToDateTime(reader["perdob"]);
                 txtSDT.Text = reader["fCon"].ToString();
                 txtLuong.Text = reader["fSal"].ToString();
 
@@ -373,7 +373,7 @@ namespace QLTruonghoc
                 txtMavung.Text = "";
                 txtLuong.Text = "";
                 txtSDT.Text = "";
-                dtNgaysinh.Value = DateTime.Now;
+                dteNgaysinh.Value = DateTime.Now;
                 lblMSKtimkiem.ForeColor = System.Drawing.Color.Red;
             }
         }
@@ -523,7 +523,7 @@ namespace QLTruonghoc
                 cmbVanphong.SelectedIndex = 0;
                 txtMavung.Text = reader["perpost"].ToString();
                 txtDiachi.Text = reader["peradd"].ToString();
-                dtNgaysinh.Value = Convert.ToDateTime(reader["perdob"]);
+                dteNgaysinh.Value = Convert.ToDateTime(reader["perdob"]);
                 txtSDT.Text = reader["fCon"].ToString();
                 txtLuong.Text = reader["fSal"].ToString();
 
@@ -570,7 +570,7 @@ namespace QLTruonghoc
                 cmbVanphong.SelectedIndex = 0;
                 txtMavung.Text = reader["perpost"].ToString();
                 txtDiachi.Text = reader["peradd"].ToString();
-                dtNgaysinh.Value = Convert.ToDateTime(reader["perdob"]);
+                dteNgaysinh.Value = Convert.ToDateTime(reader["perdob"]);
                 txtSDT.Text = reader["fCon"].ToString();
                 txtLuong.Text = reader["fSal"].ToString();
 
@@ -605,6 +605,21 @@ namespace QLTruonghoc
                     MessageBox.Show("Enter Values");
                 }
             
+        }
+
+        private void dteNgaysinh_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDiachi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMavung_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

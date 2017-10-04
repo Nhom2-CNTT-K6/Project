@@ -54,7 +54,7 @@
             this.lblSDT = new System.Windows.Forms.Label();
             this.lblLuong = new System.Windows.Forms.Label();
             this.lblMSkhoa = new System.Windows.Forms.Label();
-            this.dtNgaysinh = new System.Windows.Forms.DateTimePicker();
+            this.dteNgaysinh = new System.Windows.Forms.DateTimePicker();
             this.txtTen = new System.Windows.Forms.TextBox();
             this.txtHodem = new System.Windows.Forms.TextBox();
             this.txtMakhoa = new System.Windows.Forms.TextBox();
@@ -257,6 +257,7 @@
             this.txtMavung.Name = "txtMavung";
             this.txtMavung.Size = new System.Drawing.Size(70, 26);
             this.txtMavung.TabIndex = 63;
+            this.txtMavung.TextChanged += new System.EventHandler(this.txtMavung_TextChanged);
             this.txtMavung.Leave += new System.EventHandler(this.textBox5_Leave);
             // 
             // lblDiachi
@@ -279,6 +280,7 @@
             this.txtDiachi.Name = "txtDiachi";
             this.txtDiachi.Size = new System.Drawing.Size(249, 26);
             this.txtDiachi.TabIndex = 61;
+            this.txtDiachi.TextChanged += new System.EventHandler(this.txtDiachi_TextChanged);
             this.txtDiachi.Leave += new System.EventHandler(this.textBox4_Leave);
             // 
             // lblNgaysinh
@@ -374,13 +376,14 @@
             this.lblMSkhoa.TabIndex = 50;
             this.lblMSkhoa.Text = "Mã số khoa";
             // 
-            // dtNgaysinh
+            // dteNgaysinh
             // 
-            this.dtNgaysinh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtNgaysinh.Location = new System.Drawing.Point(444, 282);
-            this.dtNgaysinh.Name = "dtNgaysinh";
-            this.dtNgaysinh.Size = new System.Drawing.Size(119, 26);
-            this.dtNgaysinh.TabIndex = 49;
+            this.dteNgaysinh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dteNgaysinh.Location = new System.Drawing.Point(444, 282);
+            this.dteNgaysinh.Name = "dteNgaysinh";
+            this.dteNgaysinh.Size = new System.Drawing.Size(119, 26);
+            this.dteNgaysinh.TabIndex = 49;
+            this.dteNgaysinh.ValueChanged += new System.EventHandler(this.dteNgaysinh_ValueChanged);
             // 
             // txtTen
             // 
@@ -540,7 +543,7 @@
             this.Controls.Add(this.lblSDT);
             this.Controls.Add(this.lblLuong);
             this.Controls.Add(this.lblMSkhoa);
-            this.Controls.Add(this.dtNgaysinh);
+            this.Controls.Add(this.dteNgaysinh);
             this.Controls.Add(this.txtTen);
             this.Controls.Add(this.txtHodem);
             this.Controls.Add(this.txtMakhoa);
@@ -583,7 +586,7 @@
         private System.Windows.Forms.Label lblSDT;
         private System.Windows.Forms.Label lblLuong;
         private System.Windows.Forms.Label lblMSkhoa;
-        private System.Windows.Forms.DateTimePicker dtNgaysinh;
+        private System.Windows.Forms.DateTimePicker dteNgaysinh;
         private System.Windows.Forms.TextBox txtTen;
         private System.Windows.Forms.TextBox txtHodem;
         private System.Windows.Forms.TextBox txtMakhoa;
