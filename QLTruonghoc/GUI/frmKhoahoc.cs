@@ -215,7 +215,7 @@ namespace QLTruonghoc
                 OleDbDataReader Cread = com.ExecuteReader();
                 while (Cread.Read())
                 {
-                    cmbMKHxoa.Items.Add(Cread["courseid"].ToString());
+                    cmbMKHxoa.Items.Add(Cread["coursetitle"].ToString());
                 }
             }
             else
