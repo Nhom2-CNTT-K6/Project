@@ -1,6 +1,4 @@
-﻿//Thong tin chinh ve sinh vien
-//Da sua
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

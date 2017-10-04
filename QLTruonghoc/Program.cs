@@ -1,5 +1,4 @@
-﻿//redfdgffg
-//Sửa xong
+﻿//Sửa xong
 using System;
 using System.Collections.Generic;
 using System.Linq;
